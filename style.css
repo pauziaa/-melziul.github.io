@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: rgba(233, 4, 199, 0.733);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+main {
+    max-width: auto;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container untuk logo dan konten */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* Gaya untuk logo */
+.logo img {
+    width: 70px; /* Sesuaikan lebar logo */
+    margin-right: 10px; /* Beri jarak antara logo dan teks */
+}
+
+/* Gaya untuk konten */
+.content {
+    flex-grow: 1; /* Biarkan konten mengisi sisa ruang di sebelah kanan */
+}
+
+/* Pindahkan teks ke sebelah kiri */
+section h2 {
+    text-align: left;
+}
+
+footer {
+    background-color: rgba(233, 4, 199, 0.733);
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Produk.css">
+    <link rel="icon" href="global.jpeg" type="image/x-icon">
+    <title>Website  Melziul</title>
+</head>
+<body>
+    <header>
+      <div id="hambuger" style="font-size: 30px;"></div> 
+        <h1>Website Bersama</h1> 
+        <nav>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="TentangKami.html">Tentang Kami</a></li>
+                <li><a href="Produk.html">Produk</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Makeup And Skincare</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Gambar</th>
+          <th>Produk</th>
+          <th>Harga</th> 
+          <th>Stok</th>
+        </tr>
+        <tr>
+          <td><img src="Camille.jpg" alt="" width="110" height="150"></td>
+          <td>Camille beauty face mist</td>
+          <td class="harga">40.000
+            <div class="dropdown-harga">$7,6</div>
+          <td>20</td>
+        </tr>
+        <tr>
+            <td><img src="pinkflash.jpg" alt="" width="110" height="150"></td>
+          <td>Pink flash eyeshadow</td>
+          <td class="harga">55.000
+            <div class="dropdown-harga">$7,6</div>
+          <td>15</td>
+        </tr>
+        <tr>
+            <td><img src="skintific.jpg" alt="" width="110" height="150"></td>
+          <td>Skintific moizturizer</td>
+          <td class="harga">120.000
+            <div class="dropdown-harga">$7,6</div>
+          </td>
+          <td>25</td>
+        </tr>
+      </table>
+
+    <footer>
+        <p>&copy;  2024 Website bersama.Hubungi @Melziul.com </p>
+    </footer>
+
+    <script>
+      const Hamburger = document.getElementById('hamburger')
+      const Menu = document.getElementById('menu')
+
+      Hamburger.addEventListener('click', () => {
+        Menu.classList.toggle('hidden')
+      })
+    </script>
+</body>
+</html>

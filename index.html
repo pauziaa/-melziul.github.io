@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="global.jpeg" type="image/x-icon">
     <title>Website  Melziul</title>
 </head>
 <body>
     <header>
         <h1>Website Bersama</h1>
         <nav>
-            <ul>
+          <div id="hambuger" style="font-size: 30px;">=</div> 
+            <ul id="menu" class="hidden">
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="TentangKami.html">Tentang Kami</a></li>
-                <li><a href="kontak.html">kontak</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
             </ul>
         </nav>
-    </header>
+    </header>  
 
-    <main>
+    <main>    
         <section>
           <div class="container">
             <div class="logo">
               <img src="global.jpeg" alt="logo">
-            </div>
+            </div>    
             <div class="content">
               <h2>Selamat Datang di Website Melziul</h2>
               <p>Ini adalah contoh tampilan website bersama</p>
@@ -33,7 +36,16 @@
       </main>
 
     <footer>
-        <p>&copy;  2024 Website bersama.Hubungi @Melziul.com </p>
+        <p>&copy;  2024 Website bersama.Hubungi @Melziul.com </p>                           
     </footer>
+
+    <script>
+      const Hamburger = document.getElementById('hamburger')
+      const Menu = document.getElementById('menu')
+
+      Hamburger.addEventListener('click', () => {
+        Menu.classList.toggle('hidden')
+      })
+    </script>
 </body>
 </html>

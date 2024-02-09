@@ -5,8 +5,8 @@ body {
     background-color: #f2f2f2;
     align-items: center;
 }
-                                               
-header {   
+
+header {
     background-color: rgba(233, 4, 199, 0.733);
     color: #000000;
     padding: 20px;
@@ -149,9 +149,7 @@ nav li {
     display: inline;
     margin-right: 20px;
 }
-#hambuger{
-    display: none;
-}
+
 .logo img {
     max-width: 100%;
     height: auto;
@@ -196,5 +194,4 @@ nav li {
       padding: 45px;
       margin: 3px;
     }
-    
   }
